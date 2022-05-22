@@ -101,12 +101,13 @@ const styles = StyleSheet.create({
         fontSize: 24,
         color: colors.tertiary,
         marginHorizontal: 4,
-        transform: [{rotate: '90deg'}],
+        transform: [{rotate: '-90deg'}],
     },
     iconBattery: {
         fontSize: 24,
         color: colors.variant1,
         marginHorizontal: 4,
+        transform: [{rotate: '-90deg'}],
     },
     actions: {
         display: 'flex',
